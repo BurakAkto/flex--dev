@@ -1,0 +1,169 @@
+.flexbox {
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(235, 135, 12);
+    border: 1px solid;
+    height: 200px;
+}
+
+.boxes {
+    display: inherit;
+    margin: 2rem;
+}
+
+.boxes div {
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+    margin: 3px;
+    align-self: center;
+}
+
+.box1 {
+    width: 120px;
+    height: 120px;
+}
+
+.box2 {
+    width: 200px;
+    height: 120px;
+}
+
+.box3 {
+    width: 90px;
+    height: 120px;
+}
+
+.container2 {
+    margin-top: 2rem;
+    display: flex;
+    background-color: rgb(235, 135, 12);
+    border: 1px solid;
+    height: 200px;
+    justify-content: center;
+}
+
+.boxes div {
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+    margin: 3px;
+    align-self: center;
+}
+
+.box1 {
+    width: 120px;
+    height: 120px;
+}
+
+.box2 {
+    width: 200px;
+    height: 120px;
+}
+
+.box3 {
+    width: 90px;
+    height: 120px;
+}
+.container3 {
+    margin-top: 2rem;
+    display: flex;
+    background-color: rgb(235, 135, 12);
+    border: 1px solid;
+    height: 200px;
+        justify-content: flex-end;
+
+}
+
+.boxes div {
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+    margin: 3px;
+    align-self: center;
+
+}
+
+.box1 {
+    width: 120px;
+    height: 120px;
+}
+
+.box2 {
+    width: 200px;
+    height: 120px;
+}
+
+.box3 {
+    width: 90px;
+    height: 120px;
+}
+
+.flex-container {
+    margin-top: 2rem;
+    display: flex;
+    background-color: rgb(235, 135, 12);
+    border: 1px solid;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    width: 120px;
+    height: 120px;
+    margin: 1rem;
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+}
+
+.box2 {
+    width: 200px;
+    height: 120px;
+    margin: 1rem;
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+}
+
+.box3 {
+    width: 90px;
+    height: 120px;
+    margin: 1rem;
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+}
+
+.flex-container2 {
+    margin-top: 2rem;
+    display: flex;
+    background-color: rgb(235, 135, 12);
+    border: 1px solid;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    width: 120px;
+    height: 120px;
+    margin: 1rem;
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+}
+
+.box2 {
+    width: 200px;
+    height: 120px;
+    margin: 1rem;
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+}
+
+.box3 {
+    width: 90px;
+    height: 120px;
+    margin: 1rem;
+    background-color: rgb(88, 66, 6);
+    border: 1px solid;
+}
